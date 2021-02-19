@@ -61,8 +61,23 @@ inputValue = input.value;
 btn1.addEventListener("click", function () {
   input = document.getElementById("input1");
   inputValue = input.value;
-  output.value = fizzBuzz(inputValue);
+  output.value = rentalPrice(inputValue);
 });
+
+const rentalPrice = function (days) {
+  let rentDays = days;
+  const rentPrice = 40;
+  let rentTotal = rentPrice * rentDays;
+  if (rentDays >= 7) {
+    rentSum = rentTotal - 50;
+    return "$" + rentSum + " Rent payment";
+  } else if (rentDays >= 3) {
+    rentSum = rentTotal - 20;
+    return "$" + rentSum + " Rent payment";
+  } else {
+    return "$" + rentTotal + " Rent payment";
+  }
+};
 
 // **** Function 2 ****
 var btn2 = document.getElementById("btn2");
