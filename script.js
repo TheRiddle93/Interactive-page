@@ -53,6 +53,7 @@ btn.addEventListener("click", function () {
 // write any function here and call it in the btn.addEventListener . with output.value = function with inpuValue as argument.
 
 // **** Function 1 ****
+// Second button for value output
 var btn1 = document.getElementById("btn1");
 var input1 = document.getElementById("input1");
 var output1 = document.getElementById("output1");
