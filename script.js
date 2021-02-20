@@ -20,7 +20,7 @@ var inputValue = input.value;
     return "$" + rentTotal + " Rent payment";
   }
 };*/
-
+// A Fizzbuzz function to return output to the webpage
 const fizzBuzz = function (n) {
   const array = [];
   for (let i = 1; i <= n; i++) {
