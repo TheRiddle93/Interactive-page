@@ -38,7 +38,7 @@ const fizzBuzz = function (n) {
 };
 
 // Output data back to HTML/Browser
-
+// First btn for value output
 btn.addEventListener("click", function () {
   input = document.getElementById("input");
   inputValue = input.value;
