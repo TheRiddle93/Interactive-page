@@ -81,13 +81,20 @@ const rentalPrice = function (days) {
 };
 
 // **** Function 2 ****
+// Third button for value output
 var btn2 = document.getElementById("btn2");
 var input2 = document.getElementById("input2");
 var output2 = document.getElementById("output2");
 inputValue = input.value;
 
-btn1.addEventListener("click", function () {
+// Function for the value output
+
+function multiply = (param1,param2) {
+return  param1 ** param2;
+};
+
+btn2.addEventListener("click", function () {
   input = document.getElementById("input2");
   inputValue = input.value;
-  output.value = rentalPrice(inputValue);
+  output.value = multiply(inputValue);
 });
