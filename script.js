@@ -89,7 +89,7 @@ inputValue = input.value;
 
 // Function for the value output
 
-function multiply = (param1,param2) {
+function multiply (param1,param2) {
 return  param1 ** param2;
 };
 
