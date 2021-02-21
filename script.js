@@ -26,9 +26,9 @@ const fizzBuzz = function (n) {
   for (let i = 1; i <= n; i++) {
     if (i == n * 3) {
       array.push("Fizz");
-    } else if (i == n * 5) {
+    } if (i == n * 5) {
       array.push("Buzz");
-    } else if (i == n * 5 && n * 3) {
+    } if (i == n * 5 && n * 3) {
       array.push("FizzBuzz");
     } else if (i != n * 5 && n * 3) {
       array.push(i);
