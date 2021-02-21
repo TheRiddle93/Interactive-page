@@ -57,12 +57,12 @@ btn.addEventListener("click", function () {
 var btn1 = document.getElementById("btn1");
 var input1 = document.getElementById("input1");
 var output1 = document.getElementById("output1");
-inputValue = input.value;
+inputValue1 = input1.value;
 
 btn1.addEventListener("click", function () {
-  input = document.getElementById("input1");
-  inputValue = input.value;
-  output.value = rentalPrice(inputValue);
+  input1 = document.getElementById("input1");
+  inputValue1 = input.value;
+  output1.value = rentalPrice(inputValue1);
 });
 
 const rentalPrice = function (days) {
@@ -85,16 +85,16 @@ const rentalPrice = function (days) {
 var btn2 = document.getElementById("btn2");
 var input2 = document.getElementById("input2");
 var output2 = document.getElementById("output2");
-inputValue = input.value;
+inputValue2 = input2.value;
 
 // Function for the value output
 
-function multiply (param1,param2) {
-return  param1 ** param2;
+function multiply (param1) {
+return  param1 ** 5;
 };
 
 btn2.addEventListener("click", function () {
-  input = document.getElementById("input2");
-  inputValue = input.value;
-  output.value = multiply(inputValue);
+  input2 = document.getElementById("input2");
+  inputValue2 = input2.value;
+  output2.value = multiply(inputValue2);
 });
