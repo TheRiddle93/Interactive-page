@@ -57,11 +57,11 @@ btn.addEventListener("click", function () {
 var btn1 = document.getElementById("btn1");
 var input1 = document.getElementById("input1");
 var output1 = document.getElementById("output1");
-inputValue1 = input1.value;
+var inputValue1 = input1.value;
 
 btn1.addEventListener("click", function () {
   input1 = document.getElementById("input1");
-  inputValue1 = input.value;
+  inputValue1 = input1.value;
   output1.value = rentalPrice(inputValue1);
 });
 
@@ -85,7 +85,7 @@ const rentalPrice = function (days) {
 var btn2 = document.getElementById("btn2");
 var input2 = document.getElementById("input2");
 var output2 = document.getElementById("output2");
-inputValue2 = input2.value;
+var inputValue2 = input2.value;
 
 // Function for the value output
 
