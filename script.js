@@ -67,7 +67,7 @@ btn1.addEventListener("click", function () {
 
 const rentalPrice = function (days) {
   let rentDays = days;
-  const rentPrice = 40;
+  const rentPrice = 50;
   let rentTotal = rentPrice * rentDays;
   if (rentDays >= 7) {
     rentSum = rentTotal - 50;
