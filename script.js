@@ -24,13 +24,13 @@ var inputValue = input.value;
 const fizzBuzz = function (n) {
   const array = [];
   for (let i = 1; i <= n; i++) {
-    if (i == n * 3) {
-      array.push("Fizz");
-    } if (i == n * 5) {
-      array.push("Buzz");
-    } if (i == n * 5 && n * 3) {
+    if (i % 15 == 0) {
       array.push("FizzBuzz");
-    } else if (i != n * 5 && n * 3) {
+    } else if (i % 3 == 0) {
+      array.push("FIzz");
+    } else if (i % 5 == 0) {
+      array.push("Buzz");
+    } else {
       array.push(i);
     }
   }
