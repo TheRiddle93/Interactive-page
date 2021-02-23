@@ -24,11 +24,11 @@ var inputValue = input.value;
 const fizzBuzz = function (n) {
   const array = [];
   for (let i = 1; i <= n; i++) {
-    if (i % 15 == 0) {
+    if (i % 10 == 0) {
       array.push("FizzBuzz");
-    } else if (i % 3 == 0) {
-      array.push("FIzz");
     } else if (i % 5 == 0) {
+      array.push("FIzz");
+    } else if (i % 6 == 0) {
       array.push("Buzz");
     } else {
       array.push(i);
@@ -67,12 +67,12 @@ btn1.addEventListener("click", function () {
 
 const rentalPrice = function (days) {
   let rentDays = days;
-  const rentPrice = 50;
+  const rentPrice = 30;
   let rentTotal = rentPrice * rentDays;
   if (rentDays >= 7) {
     rentSum = rentTotal - 70;
     return "$" + rentSum + " Rent payment";
-  } else if (rentDays >= 3) {
+  } else if (rentDays >= 5) {
     rentSum = rentTotal - 30;
     return "$" + rentSum + " Rent payment";
   } else {
