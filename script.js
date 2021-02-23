@@ -70,7 +70,7 @@ const rentalPrice = function (days) {
   const rentPrice = 50;
   let rentTotal = rentPrice * rentDays;
   if (rentDays >= 7) {
-    rentSum = rentTotal - 50;
+    rentSum = rentTotal - 70;
     return "$" + rentSum + " Rent payment";
   } else if (rentDays >= 3) {
     rentSum = rentTotal - 20;
